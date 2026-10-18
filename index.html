@@ -21,7 +21,7 @@
   --paper:#EEF2F4; --panel:#FFFFFF; --panel-2:#F5F7F9; --ink:#0F1E33; --muted:#566779; --line:#D6DEE5;
   --chrome:#12243D; --chrome-2:#1B3253; --chrome-ink:#EAF0F7; --brand:#D62828; --brand-ink:#FFFFFF;
   --ok:#1C8F52; --warn:#D48A00; --crit:#D62828; --info:#1F6FD1; --violet:#7B4BC4;
-  --svc-feu:#D62828; --svc-pol:#1F5FBF; --svc-san:#1C8F52; --svc-air:#B4561A; --b-cta:#12243D; --b-hop:#C21F4E;
+  --svc-feu:#D62828; --svc-pol:#1F5FBF; --svc-san:#1C8F52; --svc-air:#B4561A; --svc-alp:#6B4FB8; --b-cta:#12243D; --b-hop:#C21F4E;
   --sea:#C6DEEE; --land:#F8F7F1; --land-alt:#F3F2EA; --admin-line:#A98BA3; --country-line:#9C2F67; --water:#A8D0EA; --water-line:#4A8FC2;
   --neighbor:#E3E5E1; --road:#E25B37; --road-1:#F2A13A; --road-2:#F7D46A; --road-case:#A0805A; --rail:#6C6F7A; --urban:#EADFD5; --commune:#C4BCC8;
   --contour:#B07D52; --glacier:#F4FAFD; --glacier-line:#8DBBDA; --shield-a:#C62828; --shield-e:#1E7A46; --hyp-a:.62; --shade-a:.75; --peak:#6B4A2E;
@@ -347,7 +347,7 @@ a{color:inherit}
         <li class="done"><span class="st">Fait</span><h3>Appels, carte et radio</h3><p>Questions libres, vraies casernes, vraies routes, statuts radio en Suisse et en France.</p></li>
         <li class="done"><span class="st">Fait</span><h3>Interventions complètes</h3><p>Renforts, hôpitaux, hélicoptères, catastrophes, recherches de police.</p></li>
         <li class="now"><span class="st">En cours</span><h3>Tests et réglages</h3><p>Des milliers de gardes simulées pour corriger les détails, du texte radio au trajet des engins.</p></li>
-        <li class="next"><span class="st">Bientôt</span><h3>Ouverture</h3><p>Accès pour tous, normalement décembre 2026. Les inscrits sont prévenus en premier.</p></li>
+        <li class="next"><span class="st">Bientôt</span><h3>Ouverture</h3><p>Accès pour tous, normalement décembre 2026. Les inscrits sont prévenus en premier et reçoivent un cadeau de bienvenue.</p></li>
       </ol>
     </div>
   </section>
@@ -356,7 +356,7 @@ a{color:inherit}
     <div class="lp-wrap">
       <img src="logo.webp" alt="" width="112" height="112" loading="lazy">
       <h2>La prochaine alarme est pour vous.</h2>
-      <p class="lp-intro" style="margin-left:auto;margin-right:auto">Laissez votre adresse e-mail : vous recevrez un message dès que le simulateur ouvre (normalement décembre 2026).</p>
+      <p class="lp-intro" style="margin-left:auto;margin-right:auto">Laissez votre adresse e-mail : vous recevrez un message dès que le simulateur ouvre (normalement décembre 2026), avec un cadeau de bienvenue pour équiper votre centrale.</p>
       <form class="lp-sign" id="signup" method="POST" novalidate>
         <label class="lbl" for="su-mail">Votre adresse e-mail</label>
         <div class="lp-field">
@@ -369,7 +369,7 @@ a{color:inherit}
           <label><input type="radio" name="pays" value="France"><span>France</span></label>
           <label><input type="radio" name="pays" value="Les deux"><span>Les deux</span></label>
         </fieldset>
-        <label class="lp-check"><input type="checkbox" name="accord" value="oui" required><span>J'accepte de recevoir un e-mail au lancement du simulateur. Mon adresse ne sert à rien d'autre, n'est jamais partagée et sera effacée sur simple demande.</span></label>
+        <label class="lp-check"><input type="checkbox" name="accord" value="oui" required><span>J'accepte de recevoir un e-mail au lancement du simulateur. Mon adresse ne sert à rien d'autre, n'est jamais vendue et sera effacée sur simple demande (<a href="confidentialite.html">confidentialité</a>).</span></label>
         <input class="vh" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
         <input type="hidden" name="_subject" value="Nouvelle inscription · SIS Opérations & Secours">
         <p class="lp-msg" id="su-msg" role="status" aria-live="polite"></p>
@@ -379,7 +379,7 @@ a{color:inherit}
     </div>
   </section>
 
-    <footer class="lp-foot"><div class="lp-wrap"><img src="logo-s.jpg" alt="" width="44" height="44"><p>SIS Opérations &amp; Secours est un simulateur d'entraînement, sans lien avec les services d'urgence réels. En cas d'urgence, composez le 112.</p><p>Cartographie : Natural Earth, swisstopo, france-geojson, GeoNames. Positions des hôpitaux approximatives.<br>Contact : <a href="mailto:sisoperationsetsecours@gmail.com">sisoperationsetsecours@gmail.com</a></p></div></footer>
+    <footer class="lp-foot"><div class="lp-wrap"><img src="logo-s.jpg" alt="" width="44" height="44"><p>SIS Opérations &amp; Secours est un simulateur d'entraînement, sans lien avec les services d'urgence réels. En cas d'urgence, composez le 112.</p><p>Cartographie : Natural Earth, swisstopo, france-geojson, GeoNames. Positions des hôpitaux approximatives.<br>Contact : <a href="mailto:sisoperationsetsecours@gmail.com">sisoperationsetsecours@gmail.com</a><br><a href="confidentialite.html">Confidentialité</a> · <a href="mentions-legales.html">Mentions légales</a></p></div></footer>
 </div>
 <script src="config.js"></script>
 <script>
